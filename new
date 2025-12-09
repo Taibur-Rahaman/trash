@@ -1,0 +1,628 @@
+# AeroGround System - Software Engineering Solution
+
+## Case Study Summary
+AeroGround is a distributed system to orchestrate and manage ground handling services for commercial flights at busy airports. The system coordinates between:
+- **Airline Managers**
+- **Ground Dispatchers**
+- **Crew Members**
+- **Flight Deck Crew**
+
+## Key Requirements
+1. Unique turnaround ID tracking (landed → pushback)
+2. Automatic task generation based on aircraft type and airline contract
+3. Service templates (defined by Airline Managers)
+4. Task dependency enforcement
+5. Safety protocols (e.g., no boarding during refueling)
+6. Crew assignment with certifications (e.g., HAZMAT)
+7. Equipment management (availability, compatibility)
+8. Task status tracking (arrived, started, paused, completed)
+9. Incident reporting
+10. Load sheet generation and digital signature
+11. Pushback authorization
+
+---
+
+## Question 1: Use Case Diagram
+
+### Actors
+1. **Airline Manager**
+2. **Ground Dispatcher**
+3. **Crew Member**
+4. **Flight Deck Crew (Pilot)**
+5. **Safety Officer**
+
+### Use Cases
+
+#### Airline Manager
+- Login
+- Define Service Template
+- Modify Service Template
+- View Turnaround Status
+- Receive At-Risk Notifications
+
+#### Ground Dispatcher
+- Login
+- Review Flight Schedule
+- Assign Crew to Task
+- Assign Equipment to Task
+- View Turnaround Status
+- Receive Safety Alerts
+- Generate Load Sheet
+
+#### Crew Member
+- Login
+- View Task List (via mobile tablet)
+- Update Task Status (arrived, started, paused, completed)
+- File Incident Report
+
+#### Flight Deck Crew (Pilot)
+- Login
+- View Load Sheet
+- Digitally Sign Load Sheet
+- Request Pushback
+
+#### Safety Officer
+- Login
+- Review Incident Reports
+- Clear Grounded Aircraft
+
+### Use Case Diagram (Textual Representation)
+```
+┌─────────────────┐
+│ Airline Manager │
+└────────┬────────┘
+         │
+         ├─ Login
+         ├─ Define Service Template
+         ├─ Modify Service Template
+         ├─ View Turnaround Status
+         └─ Receive At-Risk Notifications
+
+┌──────────────────┐
+│ Ground Dispatcher│
+└────────┬─────────┘
+         │
+         ├─ Login
+         ├─ Review Flight Schedule
+         ├─ Assign Crew to Task
+         ├─ Assign Equipment to Task
+         ├─ View Turnaround Status
+         ├─ Receive Safety Alerts
+         └─ Generate Load Sheet
+
+┌──────────────┐
+│ Crew Member  │
+└──────┬───────┘
+       │
+       ├─ Login
+       ├─ View Task List
+       ├─ Update Task Status
+       └─ File Incident Report
+
+┌─────────────────┐
+│ Flight Deck Crew│
+└────────┬────────┘
+         │
+         ├─ Login
+         ├─ View Load Sheet
+         ├─ Digitally Sign Load Sheet
+         └─ Request Pushback
+
+┌──────────────┐
+│Safety Officer│
+└──────┬───────┘
+       │
+       ├─ Login
+       ├─ Review Incident Reports
+       └─ Clear Grounded Aircraft
+```
+
+---
+
+## Question 2: Class Diagram
+
+### Core Classes
+
+```java
+// Main Domain Classes
+class Turnaround {
+    - String turnaroundId
+    - Flight flight
+    - Status status // landed, in-progress, ready-for-pushback
+    - List<Task> tasks
+    - LoadSheet loadSheet
+    - Date startTime
+    - Date expectedCompletionTime
+}
+
+class Flight {
+    - String flightNumber
+    - Aircraft aircraft
+    - Airline airline
+    - Date scheduledArrival
+    - Date actualArrival
+}
+
+class Aircraft {
+    - String aircraftId
+    - AircraftModel model
+    - Airline airline
+}
+
+class AircraftModel {
+    - String modelName
+    - AircraftType type // wide-body, narrow-body, regional
+}
+
+class Airline {
+    - String airlineId
+    - String name
+    - List<ServiceTemplate> templates
+}
+
+class ServiceTemplate {
+    - String templateId
+    - AircraftModel aircraftModel
+    - Airline airline
+    - List<TemplateTask> requiredTasks
+}
+
+class TemplateTask {
+    - TaskType taskType
+    - int standardDuration
+    - List<TaskType> dependencies
+}
+
+class Task {
+    - String taskId
+    - TaskType type
+    - Status status // assigned, arrived, started, paused, completed
+    - Turnaround turnaround
+    - CrewTeam assignedCrew
+    - Equipment assignedEquipment
+    - Date startTime
+    - Date completionTime
+    - List<Task> dependencies
+}
+
+enum TaskType {
+    CABIN_CLEANING,
+    WATER_REFILL,
+    REFUELING,
+    BAGGAGE_UNLOADING,
+    CATERING_LOADING,
+    PASSENGER_BOARDING,
+    // ... other task types
+}
+
+class CrewTeam {
+    - String teamId
+    - List<CrewMember> members
+    - List<Certification> certifications
+}
+
+class CrewMember {
+    - String memberId
+    - String name
+    - List<Certification> certifications
+    - List<Task> assignedTasks
+}
+
+enum Certification {
+    HAZMAT,
+    REFUELING,
+    // ... other certifications
+}
+
+class Equipment {
+    - String equipmentId
+    - EquipmentType type
+    - Status status // available, in-use, under-maintenance
+    - List<AircraftType> compatibleAircraftTypes
+}
+
+enum EquipmentType {
+    FUEL_TRUCK,
+    BELT_LOADER,
+    STAIR_CAR,
+    // ... other equipment types
+}
+
+class LoadSheet {
+    - String loadSheetId
+    - Turnaround turnaround
+    - double totalWeight
+    - double fuelAmount
+    - CargoSummary cargo
+    - boolean isSigned
+    - Date signedDate
+    - String pilotSignature
+}
+
+class IncidentReport {
+    - String incidentId
+    - IncidentType type
+    - String description
+    - Date reportedDate
+    - CrewMember reportedBy
+    - Status status // pending, under-review, resolved
+    - boolean isCritical
+    - Aircraft affectedAircraft
+}
+
+enum IncidentType {
+    DAMAGED_EQUIPMENT,
+    FUEL_SPILL,
+    SAFETY_PROTOCOL_BREACH,
+    // ... other incident types
+}
+
+// User Classes
+class User {
+    - String userId
+    - String username
+    - String password
+    - Role role
+}
+
+class AirlineManager extends User {
+    - Airline airline
+}
+
+class GroundDispatcher extends User {
+}
+
+class CrewMemberUser extends User {
+    - CrewMember crewMember
+}
+
+class Pilot extends User {
+    - String licenseNumber
+}
+
+class SafetyOfficer extends User {
+}
+
+// System Classes
+class TaskScheduler {
+    + generateTasks(Turnaround): List<Task>
+    + checkDependencies(Task): boolean
+    + validateSafetyProtocols(Task): boolean
+}
+
+class NotificationService {
+    + sendSafetyAlert(String message, GroundDispatcher)
+    + sendAtRiskNotification(Turnaround, AirlineManager)
+}
+
+class DependencyValidator {
+    + validateTaskDependencies(Task): boolean
+    + checkSafetyConstraints(Task): boolean
+}
+```
+
+### Relationships
+- Turnaround **has many** Tasks
+- Turnaround **belongs to** Flight
+- Flight **has** Aircraft
+- Aircraft **has** AircraftModel
+- ServiceTemplate **defines** TemplateTasks
+- Task **depends on** other Tasks
+- Task **assigned to** CrewTeam
+- Task **uses** Equipment
+- CrewTeam **has many** CrewMembers
+- CrewMember **has** Certifications
+- Equipment **compatible with** AircraftTypes
+- Turnaround **has** LoadSheet
+- IncidentReport **affects** Aircraft
+
+---
+
+## Question 3: Sequence Diagram - Task Assignment and Execution
+
+### Scenario: Assign and Execute a Task
+
+```
+Actor: Ground Dispatcher
+Participant: System
+Participant: TaskScheduler
+Participant: DependencyValidator
+Participant: CrewTeam
+Participant: Equipment
+Participant: CrewMember
+Participant: NotificationService
+
+Ground Dispatcher -> System: Review Flight Schedule
+System -> Ground Dispatcher: Display Turnarounds
+
+Ground Dispatcher -> System: Assign Crew & Equipment to Task
+System -> TaskScheduler: Request Task Assignment
+TaskScheduler -> DependencyValidator: Check Task Dependencies
+DependencyValidator -> System: Dependencies Valid
+
+System -> CrewTeam: Check Availability & Certifications
+CrewTeam -> System: Team Available with Required Certs
+
+System -> Equipment: Check Availability & Compatibility
+Equipment -> System: Equipment Available & Compatible
+
+System -> TaskScheduler: Assign Task
+TaskScheduler -> CrewMember: Notify Task Assignment
+TaskScheduler -> System: Task Assigned Successfully
+System -> Ground Dispatcher: Confirmation
+
+CrewMember -> System: View Task List (Mobile)
+System -> CrewMember: Display Assigned Tasks
+
+CrewMember -> System: Update Status: "Arrived"
+System -> CrewMember: Status Updated
+
+CrewMember -> System: Update Status: "Started"
+System -> DependencyValidator: Validate Dependencies
+DependencyValidator -> System: All Dependencies Completed
+
+System -> CrewMember: Task Started
+
+CrewMember -> System: Update Status: "Completed"
+System -> TaskScheduler: Task Completed
+TaskScheduler -> DependencyValidator: Check Dependent Tasks
+DependencyValidator -> System: Dependent Tasks Can Now Start
+
+System -> CrewMember: Task Marked Complete
+```
+
+---
+
+## Question 4: Sequence Diagram - Safety Alert Scenario
+
+### Scenario: Safety Protocol Violation Detection
+
+```
+Actor: CrewMember
+Participant: System
+Participant: DependencyValidator
+Participant: NotificationService
+Participant: Ground Dispatcher
+Participant: SafetyOfficer
+
+CrewMember -> System: Attempt to Start Passenger Boarding
+System -> DependencyValidator: Check Safety Constraints
+DependencyValidator -> System: Refueling in Progress - VIOLATION
+
+System -> NotificationService: Trigger Safety Alert
+NotificationService -> Ground Dispatcher: Send Safety Alert
+NotificationService -> System: Log Incident
+
+System -> CrewMember: Block Action - Safety Violation
+
+Ground Dispatcher -> System: Review Safety Alert
+System -> Ground Dispatcher: Display Violation Details
+
+Ground Dispatcher -> System: File Incident Report
+System -> SafetyOfficer: Notify Critical Incident
+System -> Aircraft: Set Status to "Grounded"
+
+SafetyOfficer -> System: Review Incident
+SafetyOfficer -> System: Clear Aircraft
+System -> Aircraft: Set Status to "Active"
+```
+
+---
+
+## Question 5: System Architecture
+
+### High-Level Architecture
+
+```
+┌─────────────────────────────────────────────────────────┐
+│                    Client Layer                          │
+├─────────────────────────────────────────────────────────┤
+│  Web App (Airline Manager, Dispatcher)                  │
+│  Mobile App (Crew Members, Pilots)                      │
+└─────────────────────────────────────────────────────────┘
+                          │
+                          ▼
+┌─────────────────────────────────────────────────────────┐
+│                  Application Layer                       │
+├─────────────────────────────────────────────────────────┤
+│  Authentication Service                                  │
+│  Task Management Service                                 │
+│  Scheduling Service                                      │
+│  Notification Service                                    │
+│  Incident Management Service                             │
+│  Load Sheet Service                                      │
+└─────────────────────────────────────────────────────────┘
+                          │
+                          ▼
+┌─────────────────────────────────────────────────────────┐
+│                   Business Logic Layer                  │
+├─────────────────────────────────────────────────────────┤
+│  Task Scheduler                                          │
+│  Dependency Validator                                    │
+│  Safety Protocol Enforcer                                │
+│  Equipment Compatibility Checker                         │
+│  Certification Validator                                │
+└─────────────────────────────────────────────────────────┘
+                          │
+                          ▼
+┌─────────────────────────────────────────────────────────┐
+│                    Data Access Layer                     │
+├─────────────────────────────────────────────────────────┤
+│  Turnaround Repository                                   │
+│  Task Repository                                         │
+│  User Repository                                         │
+│  Equipment Repository                                    │
+│  Template Repository                                     │
+└─────────────────────────────────────────────────────────┘
+                          │
+                          ▼
+┌─────────────────────────────────────────────────────────┐
+│                    Database Layer                        │
+├─────────────────────────────────────────────────────────┤
+│  PostgreSQL / MySQL (Relational DB)                     │
+│  Redis (Caching & Real-time Updates)                    │
+└─────────────────────────────────────────────────────────┘
+```
+
+### Key Design Patterns
+1. **Repository Pattern** - Data access abstraction
+2. **Service Layer Pattern** - Business logic separation
+3. **Observer Pattern** - Real-time notifications
+4. **Strategy Pattern** - Different scheduling algorithms
+5. **Factory Pattern** - Task creation based on templates
+
+---
+
+## Question 6: Key Design Decisions
+
+### 1. Task Dependency Management
+- **Decision**: Use directed acyclic graph (DAG) to model task dependencies
+- **Rationale**: Ensures no circular dependencies and enables parallel execution of independent tasks
+
+### 2. Safety Protocol Enforcement
+- **Decision**: Hard constraints in dependency validator that cannot be overridden
+- **Rationale**: Safety is non-negotiable; system must prevent violations, not just warn
+
+### 3. Real-time Status Updates
+- **Decision**: Use WebSocket/Server-Sent Events for real-time updates
+- **Rationale**: Ground operations require immediate visibility of status changes
+
+### 4. Equipment Compatibility Matrix
+- **Decision**: Pre-define compatibility rules in database, validate at assignment time
+- **Rationale**: Prevents incompatible assignments and ensures safety
+
+### 5. Digital Signature for Load Sheet
+- **Decision**: Cryptographic signature with timestamp and audit trail
+- **Rationale**: Legal requirement and accountability for flight safety
+
+### 6. Incident Severity Classification
+- **Decision**: Automatic classification (critical vs. non-critical) based on type
+- **Rationale**: Critical incidents require immediate action and aircraft grounding
+
+---
+
+## Question 7: Database Schema (ER Diagram - Textual)
+
+### Entities and Attributes
+
+**Turnaround**
+- turnaround_id (PK)
+- flight_id (FK)
+- status
+- start_time
+- expected_completion_time
+
+**Flight**
+- flight_id (PK)
+- flight_number
+- aircraft_id (FK)
+- airline_id (FK)
+- scheduled_arrival
+- actual_arrival
+
+**Aircraft**
+- aircraft_id (PK)
+- model_id (FK)
+- airline_id (FK)
+
+**AircraftModel**
+- model_id (PK)
+- model_name
+- aircraft_type
+
+**Task**
+- task_id (PK)
+- turnaround_id (FK)
+- task_type
+- status
+- crew_team_id (FK)
+- equipment_id (FK)
+- start_time
+- completion_time
+
+**TaskDependency**
+- task_id (FK)
+- depends_on_task_id (FK)
+- (Composite PK)
+
+**CrewTeam**
+- team_id (PK)
+- team_name
+
+**CrewMember**
+- member_id (PK)
+- name
+- team_id (FK)
+
+**Certification**
+- certification_id (PK)
+- certification_type
+- member_id (FK)
+- issue_date
+- expiry_date
+
+**Equipment**
+- equipment_id (PK)
+- equipment_type
+- status
+- compatible_aircraft_types (JSON array)
+
+**ServiceTemplate**
+- template_id (PK)
+- airline_id (FK)
+- model_id (FK)
+
+**TemplateTask**
+- template_task_id (PK)
+- template_id (FK)
+- task_type
+- standard_duration
+
+**LoadSheet**
+- loadsheet_id (PK)
+- turnaround_id (FK)
+- total_weight
+- fuel_amount
+- cargo_summary
+- is_signed
+- signed_date
+- pilot_signature
+
+**IncidentReport**
+- incident_id (PK)
+- incident_type
+- description
+- reported_date
+- reported_by (FK)
+- status
+- is_critical
+- aircraft_id (FK)
+
+**User**
+- user_id (PK)
+- username
+- password_hash
+- role
+
+---
+
+## Additional Considerations
+
+### Non-Functional Requirements
+1. **Performance**: System must handle 100+ concurrent turnarounds
+2. **Reliability**: 99.9% uptime requirement
+3. **Security**: Role-based access control, encrypted communications
+4. **Scalability**: Horizontal scaling for high-traffic airports
+5. **Usability**: Mobile-first design for crew members
+
+### Testing Strategy
+1. **Unit Tests**: Individual components (validators, schedulers)
+2. **Integration Tests**: Service interactions
+3. **System Tests**: End-to-end workflows
+4. **Safety Tests**: Protocol violation scenarios
+5. **Load Tests**: Concurrent user and turnaround handling
+
+---
+
+*Note: This solution covers common Software Engineering exam questions. If you have specific questions from your exam paper, please share them and I can provide more targeted answers.*
+
