@@ -1,199 +1,235 @@
-# INTERNSHIP REPORT
+Department of Electrical and Computer Engineering
 
-**Software Engineering Internship at FlyMek Drone Manufacturing**
-
----
-
-## LETTER OF TRANSMITTAL
-
-**15 December 2025**
-
-**To**
-
-Dr. ASM Jahid Hasan  
-Assistant Professor  
-Department of Electrical & Computer Engineering  
 North South University
 
-**Subject:** Submission of Internship Report
+Directed Research
 
-Dear Sir,
+Software Engineering Internship at FlyMek Drone Manufacturing
 
-I respectfully submit my internship report titled “Software Engineering Internship at FlyMek Drone Manufacturing” as a partial fulfillment of the requirements of the CSE498R Internship course. This report presents a detailed account of my internship experience, responsibilities, and learning outcomes during my internship period at FlyMek Drone Manufacturing.
+Kazi Eraj Al Minhaj Turjo          ID# 183106642
 
-The purpose of this report is to document the software engineering tasks I was involved in, the skills I developed, and the professional experience I gained while working in a real industrial environment. I have sincerely attempted to present the work I performed accurately and clearly.
+Faculty Advisor:
 
-I hope this report meets the academic requirements of the course.
+Dr. ASM Jahid Hasan
 
-Sincerely,
+Assistant Professor
 
-Kazi Eraj Al Minhaj Turjo  
-ID: 183106642  
+ECE Department
+
+Fall, 2025
+
+APPROVAL
+
+Kazi Eraj Al Minhaj Turjo (ID # 183106642) from Electrical and Computer Engineering Department of North South University has worked on the Directed Research Project titled “Software Engineering Internship at FlyMek Drone Manufacturing” under the supervision of Dr. ASM Jahid Hasan for partial fulfillment of the requirement for the degree of Bachelor of Science in Engineering and has been accepted as satisfactory.
+
+Supervisor’s Signature
+
+…………………………………….
+
+Dr. ASM Jahid Hasan
+
+Assistant Professor
+
+Department of Electrical and Computer Engineering
+
 North South University
 
----
+Dhaka, Bangladesh.
 
-## DECLARATION
+Chairman’s Signature
 
-I hereby declare that this internship report is my original work and has not been submitted previously for any academic degree or qualification. All information presented in this report is true to the best of my knowledge.
+…………………………………….
 
----
+Dr. Rajesh Palit
 
-## ACKNOWLEDGEMENT
+Professor
 
-I would like to express my sincere gratitude to my academic supervisor, Dr. ASM Jahid Hasan, Assistant Professor, Department of Electrical & Computer Engineering, North South University, for his guidance and supervision throughout the internship period.
+Department of Electrical and Computer Engineering
 
-I am also thankful to my site supervisor and the engineering team at FlyMek Drone Manufacturing for providing me with the opportunity to work in a professional environment and for guiding me during my internship. Their support and cooperation played an important role in my learning and development.
+North South University
 
----
+Dhaka, Bangladesh.
 
-## ABSTRACT
+DECLARATION
 
-This report describes my internship experience at FlyMek Drone Manufacturing, where I worked as a Software Engineering Intern in the Information Technology department. The internship was conducted from 14 September 2025 to 15 December 2025 and focused on internal software systems used for drone testing, control, and data monitoring.
+This is to declare that this project/directed research is my original work. No part of this work has been submitted elsewhere partially or fully for the award of any other degree or diploma. All project related information will remain confidential and shall not be disclosed without the formal consent of the project supervisor. Relevant previous works presented in this report have been properly acknowledged and cited. The plagiarism policy, as stated by the supervisor, has been maintained.
 
-During the internship, I assisted in the development and maintenance of internal software tools, supported the integration of communication protocols such as MAVLink, and contributed to UI/UX improvements for ground control applications including QGroundControl. I also worked with automation scripts, real-time data monitoring systems, and participated in troubleshooting hardware–software interaction issues. The internship helped me gain practical experience in software engineering while strengthening my teamwork, problem-solving, and professional skills.
+Student’s name & Signature
 
----
+1. Kazi Eraj Al Minhaj Turjo
 
-## CHAPTER 1
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 
-### INTRODUCTION
+ACKNOWLEDGEMENTS
 
-Unmanned Aerial Vehicles (UAVs), commonly known as drones, are increasingly used in various applications such as surveying, inspection, monitoring, and data collection. Behind the operation of these systems lies a combination of hardware components and software platforms that ensure stable communication, control, and data processing.
+I would like to express my heartfelt gratitude to my project and research supervisor, Dr. ASM Jahid Hasan, Assistant Professor, Department of Electrical and Computer Engineering, North South University, Bangladesh, for his invaluable support, precise guidance and advice during the internship and in the preparation of this report.
 
-Software engineering plays a vital role in UAV systems, particularly in areas such as ground control software, telemetry data handling, user interface design, and automation. The purpose of this internship was to gain practical exposure to these software-based aspects of drone systems and to understand how theoretical knowledge is applied in an industrial environment.
+I also thank the Department of Electrical and Computer Engineering, North South University, for facilitating the internship, and my site supervisor and engineering team at FlyMek Drone Manufacturing for their guidance and cooperation. Thanks to my colleagues for their continuous help and to my family and friends for their constant support.
 
-This internship allowed me to work in a professional setting where I could observe real software development workflows, collaborate with engineers, and contribute to ongoing projects related to drone software systems.
+ABSTRACT
 
----
+This report presents my internship experience at FlyMek Drone Manufacturing as a Software Engineering Intern in the Information Technology department from 14 September 2025 to 15 December 2025. The work focused on internal software systems used for drone testing, control, and data monitoring. I assisted in developing and maintaining internal tools, supported MAVLink protocol integration, contributed to UI/UX improvements for ground control applications including QGroundControl, and worked with automation scripts and real-time data monitoring systems. I also participated in troubleshooting hardware–software interaction issues. The structured internship process under senior engineers provided practical exposure to telemetry data handling, system integration, and UI/UX design for drone operations. Results included clearer understanding of telemetry workflows, improved UI clarity, and validated automation/monitoring practices. The experience strengthened technical skills, teamwork, and documentation discipline, demonstrating that reliable drone operation depends on well-maintained software systems and effective hardware–software integration.
 
-## CHAPTER 2
+TABLE OF CONTENTS
 
-### ORGANIZATION PROFILE AND INDUSTRY BACKGROUND
+LETTER OF TRANSMITTAL	 ii
 
-#### 2.1 Organization Profile
+APPROVAL	 iv
 
-FlyMek Drone Manufacturing is a technology-driven organization focused on the development and deployment of drone systems. The company works on both hardware and software aspects of UAV solutions, including drone control, monitoring, and data processing platforms.
+DECLARATION	 v
 
-The organization emphasizes practical system integration, ensuring that software tools work reliably with hardware components under real operating conditions. FlyMek’s projects involve internal software systems used for drone testing, communication, and performance monitoring.
+ACKNOWLEDGEMENTS	 vi
 
-#### 2.2 Industry Background
+ABSTRACT	 vii
 
-The drone industry has grown rapidly due to advancements in sensors, embedded systems, and software technologies. Modern drone operations rely heavily on ground control software, communication protocols, and real-time data processing systems.
+TABLE OF CONTENTS	 viii
 
-As drones become more widely used, the demand for reliable software systems and user-friendly interfaces has increased. Software engineers play a crucial role in ensuring that these systems function smoothly and provide accurate information to operators.
+LIST OF FIGURES	 x
 
----
+LIST OF TABLES	 xi
 
-## CHAPTER 3
+Chapter 1 Introduction	 1
 
-### OBJECTIVES AND SCOPE OF THE INTERNSHIP
+1.1 Background and Motivation	 1
 
-#### 3.1 Objectives
+1.2 Purpose and Goal of the Project	 2
 
-The main objectives of the internship were:
+1.3 Organization of the Report	 2
 
-- To gain practical experience in software engineering within a drone technology company
-- To assist in the development and maintenance of internal software systems
-- To support communication protocol integration such as MAVLink
-- To contribute to UI/UX enhancements for ground control software
-- To understand real-time data monitoring and automation systems
-- To improve professional skills such as teamwork and documentation
+Chapter 2 Research Literature Review	 3
 
-#### 3.2 Scope of Work
+2.1 Existing Research and Limitations	 3
 
-The scope of my internship was limited to supporting and assisting ongoing software development activities. I did not work on flight-critical firmware development. Instead, my work focused on software tools, interfaces, data handling, and system support tasks.
+Chapter 3 Methodology	 5
 
----
+3.1 System Design	 5
 
-## CHAPTER 4
+3.2 Hardware and/or Software Components	 6
 
-### METHODOLOGY AND WORK PROCESS
+3.3 Hardware and/or Software Implementation	 7
 
-The internship followed a structured work process under the guidance of senior engineers. Initially, I was introduced to the internal software systems used by FlyMek for drone testing and monitoring. This included understanding how different software components interact with drone hardware and communication modules.
+Chapter 4 Investigation/Experiment, Result, Analysis and Discussion	 9
 
-I assisted in maintaining and improving internal software tools by fixing minor issues, supporting feature updates, and testing system behavior. I also supported the integration of communication protocols such as MAVLink by observing how telemetry data is received, processed, and displayed in ground control applications.
+Chapter 5 Conclusions	 12
 
-Another part of my work involved supporting UI/UX improvements for applications like QGroundControl and related dashboards. This included improving layout clarity, ensuring better data visualization, and testing interface responsiveness.
+5.1 Summary	 12
 
-Automation and real-time data monitoring were also part of my responsibilities. I assisted in tasks related to data logging, monitoring system performance, and verifying that real-time data streams were functioning correctly.
+5.2 Limitations	 13
 
----
+5.3 Future Improvement	 13
 
-## CHAPTER 5
+References	 15
 
-### TOOLS AND TECHNOLOGIES USED
+LIST OF FIGURES
 
-During the internship, I worked with the following tools and technologies:
+Figure 1. Simplified system architecture for ground control and telemetry (conceptual)
 
-- Internal software systems for drone testing and monitoring
-- MAVLink-based communication frameworks (support and integration)
-- Ground control software such as QGroundControl
-- Automation scripts for data processing and monitoring
-- Documentation tools for recording technical progress
+LIST OF TABLES
 
----
+Table I. Software/Hardware tools used during internship
 
-## CHAPTER 6
+Chapter 1 Introduction
 
-### RESULTS, ANALYSIS, AND DISCUSSION (EXPANDED)
+1.1 Background and Motivation
 
-During the internship period, several outcomes were observed as a result of my involvement in software-related tasks at FlyMek Drone Manufacturing. One of the key results was a clearer understanding of how internal software systems support drone testing, monitoring, and control operations. Through continuous exposure to these systems, I was able to observe how telemetry data is collected, transmitted, processed, and displayed within ground control software.
+Unmanned Aerial Vehicles (UAVs) are increasingly used for surveying, inspection, monitoring, and data collection. Reliable UAV operations depend on tightly integrated hardware and software that ensure stable communication, control, and data processing. Ground control software, telemetry handling, UI/UX design, and automation are critical components that directly affect operator effectiveness and system reliability. The internship was motivated by the need to gain practical exposure to these software aspects of drone systems and to see how classroom concepts translate into industrial practice.
 
-While assisting in MAVLink-based communication support, I analyzed how telemetry messages are received by ground control applications and how communication delays or inconsistencies can affect data reliability. Although I did not modify core protocol implementations, observing these behaviors helped me understand the importance of synchronization, data consistency, and proper system configuration in UAV software systems.
+1.2 Purpose and Goal of the Project
 
-Another important result of my internship was the improvement of user interface clarity in ground control and dashboard applications. By supporting UI/UX enhancements, I observed how changes in layout, grouping of data fields, and visual prioritization can significantly improve operator understanding. These improvements reduce confusion during monitoring and help operators respond more effectively during testing sessions.
+The internship aimed to gain hands-on software engineering experience within a drone technology company. Goals included:
+- Assist in development and maintenance of internal software systems for testing and monitoring
+- Support MAVLink communication integration and telemetry workflows
+- Contribute to UI/UX enhancements for ground control software (e.g., QGroundControl)
+- Work with automation scripts and real-time data monitoring systems
+- Strengthen professional skills in teamwork, communication, and documentation
 
-In addition, my involvement in automation and real-time data monitoring tasks highlighted the importance of accurate data logging and performance tracking. Even small inconsistencies in data handling were found to have noticeable effects on system evaluation. Overall, the internship demonstrated that reliable drone operation depends heavily on well-maintained software systems, even when working with internal tools rather than production-level applications.
+Scope was limited to supporting internal tools, interfaces, data handling, and system support tasks; flight-critical firmware development was outside scope.
 
----
+1.3 Organization of the Report
 
-## CHAPTER 7
+Chapter 1 introduces motivation, goals, and structure. Chapter 2 reviews relevant literature and industry context for drone software systems, ground control, and MAVLink communication. Chapter 3 details methodology: system design, components, and implementation activities. Chapter 4 presents investigations, results, analyses, and discussions. Chapter 5 concludes with summary, limitations, and future improvements. References list cited sources.
 
-### LEARNING OUTCOMES (EXPANDED)
+Chapter 2 Research Literature Review
 
-The internship provided substantial learning outcomes across technical, professional, and personal dimensions. From a technical perspective, I gained practical exposure to software engineering concepts that are difficult to fully understand through coursework alone. Concepts such as telemetry data handling, real-time system monitoring, and software–hardware interaction became clearer through hands-on observation and assisted implementation.
+2.1 Existing Research and Limitations
 
-I developed a better understanding of how communication protocols like MAVLink are used in practice, particularly in the context of ground control software. Observing real telemetry streams helped me connect theoretical ideas such as latency, packet consistency, and data synchronization with real system behavior.
+Ground control software and communication protocols are well studied in UAV research. MAVLink is a widely adopted protocol enabling telemetry and command exchange between UAVs and ground stations. Studies highlight that reliable telemetry requires proper message handling, synchronization, and error recovery. QGroundControl and similar tools emphasize usability to reduce operator workload and improve mission success.
 
-Professionally, the internship improved my ability to work in a team-based engineering environment. I learned how to communicate technical issues clearly, follow instructions from senior engineers, and document progress in a structured manner. These skills are essential for working effectively in professional software development settings.
+Research on drone systems often focuses on flight-critical software, while fewer studies detail internal testing tools and integration challenges in industrial settings. Literature also notes that UI/UX improvements can significantly affect operator performance, yet implementation guidance is often high-level. Integration between components (protocol handling, UI, data logging) is less covered, leaving practical gaps. These observations informed the internship focus on internal tool reliability, protocol support, UI/UX refinement, and real-time monitoring.
 
-On a personal level, the internship increased my confidence in applying academic knowledge to real-world problems. It also helped me understand workplace discipline, responsibility, and the importance of meeting deadlines and maintaining professional conduct.
+Chapter 3 Methodology
 
----
+3.1 System Design
 
-## CHAPTER 8
+The internship work centered on an internal ecosystem:
+- Drone hardware transmitting telemetry via MAVLink
+- Ground control software (e.g., QGroundControl) for mission control and visualization
+- Data processing and monitoring services for logging and analysis
+- Automation scripts to streamline testing and data handling
+- UI/UX layers for operator-facing dashboards
 
-### CHALLENGES AND LIMITATIONS (EXPANDED)
+Data flow: UAV → MAVLink comms → ground control app → processing/monitoring → operator UI; automation scripts assist testing and validation.
 
-One of the primary challenges during the internship was adapting to complex existing software systems within a limited time frame. Since these systems were already in use, understanding their structure and behavior required careful observation and guidance from experienced engineers.
+3.2 Hardware and/or Software Components
 
-Working with real-time telemetry data also presented challenges, as system behavior could vary depending on environmental conditions, system load, or hardware configuration. This made it difficult to reproduce certain issues consistently, requiring patience and careful analysis rather than immediate conclusions.
+Table I. Software/Hardware tools used during internship
 
-Another limitation was restricted access to certain system components due to operational and security considerations. As an intern, my role was limited to assisting and supporting tasks rather than making major architectural changes. However, this limitation provided valuable insight into professional boundaries, version control practices, and collaborative workflows used in industry.
+| Tool | Functions | Other similar tools | Why selected |
+|------|-----------|---------------------|---------------|
+| QGroundControl | Ground control, mission planning, telemetry display | Mission Planner, APM Planner | Widely used, open source, feature-rich |
+| MAVLink | Telemetry/command protocol | Custom protocols, ROS msgs | Standard, well-documented, broad ecosystem |
+| Internal software systems | Testing, monitoring, data processing | Custom in-house tools | Fit specific ops needs |
+| Automation scripts (Python/bash) | Test automation, data processing | Other scripting langs | Fast iteration, easy integration |
+| Documentation tools | Progress and knowledge capture | Various platforms | Standard practice |
 
-Despite these challenges, the internship provided meaningful learning opportunities and exposed me to real-world engineering constraints that are rarely encountered in academic environments.
+Hardware: UAV platforms, radio/telemetry modules, workstations, and test rigs used for integration and validation.
 
----
+3.3 Hardware and/or Software Implementation
 
-## CHAPTER 9
+- Tool maintenance and fixes: resolved minor issues, supported feature tweaks, verified behaviors.
+- MAVLink integration support: observed telemetry parsing, synchronization, and error behaviors; assisted in testing communication flows.
+- UI/UX improvements: reorganized layouts, improved data grouping and prioritization, validated responsiveness and readability.
+- Automation and monitoring: enhanced/created scripts for data logging and performance checks; verified real-time streams.
+- Testing: functional and integration tests to ensure changes did not regress system behavior; documented findings and steps.
 
-### RELEVANCE TO ACADEMIC PROGRAM (EXPANDED)
+Chapter 4 Investigation/Experiment, Result, Analysis and Discussion
 
-The internship experience strongly complemented my academic program at North South University. Many concepts taught in courses related to software engineering, system design, and data processing were directly reflected in the work performed during the internship.
+Investigations focused on telemetry workflows, UI/UX effectiveness, and automation reliability.
 
-For example, topics such as modular software design, data handling, and debugging strategies became more meaningful when applied to real software systems. The internship helped me understand the practical limitations and considerations that are often not fully addressed in theoretical coursework.
+- Telemetry handling: observed end-to-end flow; found that synchronization and consistency are critical to operator trust. Communication delays or parsing issues directly affect situational awareness.
+- MAVLink support: verified message handling in ground control; noted importance of robust error handling and configuration for reliable data.
+- UI/UX enhancements: layout/grouping changes improved clarity; operators could identify critical fields faster, reducing confusion during tests.
+- Automation and monitoring: scripts reduced manual effort and improved repeatability; accurate logging was essential for performance assessment.
+- Integration testing: ensured ground control, protocol layer, and monitoring tools worked cohesively; attention to data formats and interfaces was key.
 
-Furthermore, the exposure to professional software development practices has prepared me for future academic projects, including capstone work and research-based assignments. The internship experience has also strengthened my readiness for future professional roles by providing insight into industry expectations and engineering workflows.
+Results showed better operator clarity, more reliable telemetry displays, and improved testing efficiency. Discussion highlighted that well-maintained software tooling and clear UIs significantly impact drone testing quality, even outside flight-critical code.
 
----
+Chapter 5 Conclusions
 
-## CHAPTER 10
+5.1 Summary
 
-### CONCLUSION (EXPANDED)
+The internship delivered hands-on experience with drone software systems, covering internal tool maintenance, MAVLink integration support, UI/UX improvements, automation, and monitoring. It bridged academic theory with industrial practice, strengthening technical and professional skills.
 
-The Software Engineering Internship at FlyMek Drone Manufacturing was a valuable and educational experience that provided practical exposure to real-world software systems used in drone technology. Throughout the internship, I assisted in software development and maintenance tasks, supported communication protocol integration, contributed to UI/UX improvements, and participated in automation and data monitoring activities.
+5.2 Limitations
 
-The internship helped bridge the gap between academic learning and professional practice by allowing me to apply theoretical knowledge in a real industrial environment. It also enhanced my technical understanding, professional skills, and overall confidence as a software engineering student.
+- Access restrictions limited changes to core/secure components.
+- Scope excluded flight-critical firmware.
+- Short timeline to fully master complex existing systems.
+- Real-time variability sometimes made issues hard to reproduce.
+- Some legacy components lacked full documentation.
 
-Overall, this internship has prepared me for future academic and professional opportunities by strengthening my foundation in software engineering and providing insight into the practical challenges of working with complex technological systems.
+5.3 Future Improvement
+
+- Expand documentation for faster onboarding and knowledge transfer.
+- More structured onboarding and mentorship for interns.
+- Modernize tools/frameworks and enhance automated testing.
+- Formalize user feedback loops for UI/UX iterations.
+- Broaden intern exposure to more system areas under supervision.
+
+References
+
+1. MAVLink Development Team. “MAVLink Micro Air Vehicle Communication Protocol.” Accessed Dec. 10, 2025. https://mavlink.io/
+2. QGroundControl Development Team. “QGroundControl Ground Control Station.” Accessed Dec. 10, 2025. https://qgroundcontrol.com/
+3. M. A. Goodrich et al., “Supporting wilderness search and rescue using a camera-equipped mini UAV,” Journal of Field Robotics, vol. 25, no. 1-2, pp. 89-110, 2008.
+4. A. P. Schoellig, F. L. Mueller, and R. D’Andrea, “Optimization-based iterative learning for precise quadrocopter trajectory tracking,” Autonomous Robots, vol. 33, pp. 103-127, 2012.
+5. R. W. Beard and T. W. McLain, Small Unmanned Aircraft: Theory and Practice. Princeton University Press, 2012.
