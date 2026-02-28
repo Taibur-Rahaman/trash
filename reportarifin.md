@@ -335,4 +335,230 @@ The platform is well-aligned with local preferences (COD, nationwide delivery) a
 
 ---
 
+## Appendix: 10 Individual Competitors for IPL Hair Removal Device
+
+**Product:** IPL Hair Removal Device (Digital Meter) Original – Arefin Mart ৳3,440  
+*Note: Product names vary across competitors. Below are individual websites only (excluding Daraz & Othoba).*
+
+| # | Competitor | Website | Product Name (as listed on their site) | Price | Notes |
+|---|------------|---------|---------------------------------------|-------|-------|
+| 1 | **Gilded Glow** | [gildedglow.com](https://www.gildedglow.com/products/ipl-painless-laser-permanent-hair-removal) | IPL Painless Laser Permanent Hair Removal | ৳3,990 | Free delivery, 1-year guarantee |
+| 2 | **BDShop** | [bdshop.com](https://www.bdshop.com/philips-lumea-prestige-bri956-ipl-hair-removal-in-bd) | Philips Lumea Prestige / Advanced / Essential IPL Hair Removal System | ৳41,500 – ৳55,000+ | Branded Philips, call 09678-300400 |
+| 3 | **AETechbd** | [aetechbd.com](https://www.aetechbd.com/beauty_n_care/tools/mison-206B/index.html) | MiSMON 3-in-1 IPL Permanent Laser Hair Removal Machine (MS-206B) | ৳17,550 | 300K flashes, 5 energy levels |
+| 4 | **Ubuy** | [ubuy.com.bd](https://www.ubuy.com.bd/en/product/C0C1X3C-ipl-intense-pulsed-light-3-in-1-laser-ipl-permanent-hair-removal-machine-face-body-epilator-kit-permanent-hair-reduction) | 3-in-1 Laser IPL Permanent Hair Removal Machine Face Body Epilator Kit | Varies | International shipping to BD |
+| 5 | **ShopZ** | [shopz.com.bd](https://www.shopz.com.bd/product/kemei-km-6812-permanent-hair-removal/) | Kemei KM-6812 Permanent Hair Removal | ৳5,950 (was ৳7,500) | 3 intensity levels, 2 heads |
+| 6 | **SmartDeal** | [smartdeal.com.bd](https://smartdeal.com.bd/product/kemei-original-hair-removal-with-epilator-km-2530) | Kemei Original Hair Removal With Epilator KM-2530 | Check site | Epilator + shaver (related category) |
+| 7 | **ArifinShop** | [arifinshop.com](https://arifinshop.com/) | Beauty & Health Care → Hair Removal / IPL | Check site | Multi-category, search "hair removal" |
+| 8 | **Earifin** | [earifin.com](https://earifin.com/) | Beauty & Health Care → Hair Removal | Check site | Marketplace, 100% refund policy |
+| 9 | **ArafatMart** | [arafatmart.com](https://www.arafatmart.com/) | Beauty / Grooming → Trimmers & Hair Removal | Check site | Gadgets & lifestyle focus |
+| 10 | **TrimmerShopBD** | [trimmershopbd.com.bd](https://trimmershopbd.com.bd/product-category/womens-grooming/ladis-hair-removal/) | Ladies Hair Removal / Epilators (Kemei, Philips, Braun) | ৳2,000+ | Epilators, shavers; search "hair removal" |
+
+### Alternate Product Names Used by Competitors
+
+| Arefin Mart Name | Alternate Names on Other Sites |
+|------------------|-------------------------------|
+| IPL Hair Removal Device (Digital Meter) | IPL Painless Laser Permanent Hair Removal |
+| | Philips Lumea IPL Hair Removal System |
+| | Laser IPL Permanent Hair Remover Machine |
+| | 3-in-1 IPL Intense Pulsed Light Epilator Kit |
+| | Permanent Hair Removal Device |
+| | IPL Laser Epilator / Photon Hair Removal |
+| | Mini IPL Epilator Pulsed Light Laser Hair Removal Device |
+| | Kemei Permanent Hair Removal / Epilator |
+
+---
+
+## Appendix B: 10 Websites Selling Below or Near Arefin Mart (All Products)
+
+*Individual websites only (excluding Daraz & Othoba). Prices are similar or lower than Arefin Mart across product categories.*
+
+| # | Website | URL | Products They Sell (Below/Near Arefin) | Price vs. Arefin |
+|---|---------|-----|--------------------------------------|------------------|
+| 1 | **SmartDeal** | [smartdeal.com.bd](https://smartdeal.com.bd/) | Heating Pad (Period Cramps), Kemei Hair Removal, Health & Beauty | Near – heating pad ৳990 (Arefin ৳845 lower) |
+| 2 | **Fitnotion** | [fitnotion.com.bd](https://fitnotion.com.bd/) / [fitnotionbd.com](https://fitnotionbd.com/) | Massage Gun ৳1,750, Knee Massager ৳3,500, Leg Massager, Head Massager | Near – massage gun slightly higher; knee/leg in range |
+| 3 | **BDShop / Offer** | [bdshop.com](https://www.bdshop.com/) / [offer.bdshop.com](https://offer.bdshop.com/) | PIR Motion Sensor Bulb Holder ৳499, Philips IPL | **Same** bulb holder ৳499; IPL premium |
+| 4 | **Gilded Glow** | [gildedglow.com](https://www.gildedglow.com/) | IPL Hair Removal ৳3,990 | Near – ৳550 higher than ৳3,440 |
+| 5 | **ClicknPack** | [clicknpack.com](https://www.clicknpack.com/) | Heating Pad (Period Cramps & Vibration Belt) | Same product category |
+| 6 | **Shofynix** | [shofynix.com](https://www.shofynix.com/) | Heating Pad (Period Cramps & Vibration Belt) | Same product, 19% discount |
+| 7 | **ShopZ** | [shopz.com.bd](https://www.shopz.com.bd/) | Kemei KM-6812 Permanent Hair Removal ৳5,950 | Higher – IPL category |
+| 8 | **Ubuy** | [ubuy.com.bd](https://www.ubuy.com.bd/) | IPL, Massage Guns, Leg/Knee Massagers, EMS | Varies – int'l prices, check for deals |
+| 9 | **ArifinShop** | [arifinshop.com](https://arifinshop.com/) | Beauty & Health, Hair Removal, Massagers | Multi-category – search by product |
+| 10 | **Earifin** | [earifin.com](https://earifin.com/) | Beauty & Health, Hair Removal, Gadgets | Marketplace – compare seller prices |
+
+### 10 Websites Per Product (Below or Near Arefin Mart)
+
+*Each product has 10 competitor sites. Individual websites only (excluding Daraz & Othoba).*
+
+---
+
+#### 1. IPL Hair Removal Device (Arefin: ৳3,440)
+
+| # | Website | URL | Price | vs. Arefin |
+|---|---------|-----|-------|------------|
+| 1 | Gilded Glow | gildedglow.com | ৳3,990 | Near (+৳550) |
+| 2 | BDShop | bdshop.com | ৳41,500+ | Higher (Philips) |
+| 3 | AETechbd | aetechbd.com | ৳17,550 | Higher |
+| 4 | Ubuy | ubuy.com.bd | Varies | Check deals |
+| 5 | ShopZ | shopz.com.bd | ৳5,950 | Near |
+| 6 | SmartDeal | smartdeal.com.bd | Check site | Hair removal |
+| 7 | ArifinShop | arifinshop.com | Check site | Beauty & Health |
+| 8 | Earifin | earifin.com | Check site | Beauty & Health |
+| 9 | ArafatMart | arafatmart.com | Check site | Grooming |
+| 10 | TrimmerShopBD | trimmershopbd.com.bd | ৳2,000+ | Related (epilators) |
+
+---
+
+#### 2. 7-in-1 LED EMS Face Lifting (Arefin: ৳2,745)
+
+| # | Website | URL | Price | vs. Arefin |
+|---|---------|-----|-------|------------|
+| 1 | Fitnotion | fitnotionbd.com | Check site | Beauty devices |
+| 2 | Ubuy | ubuy.com.bd | Varies | EMS/face devices |
+| 3 | ArifinShop | arifinshop.com | Check site | Beauty & Health |
+| 4 | Earifin | earifin.com | Check site | Beauty & Health |
+| 5 | SmartDeal | smartdeal.com.bd | Check site | Health & Beauty |
+| 6 | Gilded Glow | gildedglow.com | Check site | Beauty |
+| 7 | ShopZ | shopz.com.bd | Check site | Beauty |
+| 8 | ClicknPack | clicknpack.com | Check site | Health & Beauty |
+| 9 | Shofynix | shofynix.com | Check site | Beauty |
+| 10 | ArafatMart | arafatmart.com | Check site | Gadgets |
+
+---
+
+#### 3. Knee & Joint Massager (Arefin: ৳2,395)
+
+| # | Website | URL | Price | vs. Arefin |
+|---|---------|-----|-------|------------|
+| 1 | Fitnotion | fitnotionbd.com | ৳3,500 | Near |
+| 2 | Ubuy | ubuy.com.bd | Varies | Knee massagers |
+| 3 | GadStyle | gadstyle.com | ৳3,990 | Near |
+| 4 | Tista | tista.com.bd | ৳30,000 | Higher |
+| 5 | SmartDeal | smartdeal.com.bd | Check site | Health |
+| 6 | ArifinShop | arifinshop.com | Check site | Health |
+| 7 | Earifin | earifin.com | Check site | Health |
+| 8 | RemediMart | remedimart.com | Check site | Therapy |
+| 9 | ArafatMart | arafatmart.com | Check site | Gadgets |
+| 10 | PainCure | paincure.com.bd | Check site | Pain relief |
+
+---
+
+#### 4. Leg and Muscle Massager (Arefin: ৳2,545)
+
+| # | Website | URL | Price | vs. Arefin |
+|---|---------|-----|-------|------------|
+| 1 | Fitnotion | fitnotionbd.com | Check site | Leg massagers |
+| 2 | Tista | tista.com.bd | ৳30,000 | Higher |
+| 3 | Ubuy | ubuy.com.bd | Varies | Leg massagers |
+| 4 | GadStyle | gadstyle.com | Check site | Electric massagers |
+| 5 | SmartDeal | smartdeal.com.bd | Check site | Health |
+| 6 | ArifinShop | arifinshop.com | Check site | Health |
+| 7 | Earifin | earifin.com | Check site | Health |
+| 8 | RemediMart | remedimart.com | Check site | Therapy |
+| 9 | ArafatMart | arafatmart.com | Check site | Gadgets |
+| 10 | PainCure | paincure.com.bd | Check site | Pain relief |
+
+---
+
+#### 5. Massage Gun (Arefin: ৳1,245)
+
+| # | Website | URL | Price | vs. Arefin |
+|---|---------|-----|-------|------------|
+| 1 | Fitnotion | fitnotionbd.com | ৳1,750 | Near (+৳505) |
+| 2 | Ubuy | ubuy.com.bd | Varies | Massage guns |
+| 3 | SmartDeal | smartdeal.com.bd | Check site | Health |
+| 4 | ArifinShop | arifinshop.com | Check site | Health |
+| 5 | Earifin | earifin.com | Check site | Health |
+| 6 | ArafatMart | arafatmart.com | Check site | Gadgets |
+| 7 | GadStyle | gadstyle.com | Check site | Electric massagers |
+| 8 | Tista | tista.com.bd | Check site | Health |
+| 9 | RemediMart | remedimart.com | Check site | Therapy |
+| 10 | ShopZ | shopz.com.bd | Check site | Health |
+
+---
+
+#### 6. Octopus Head Massager (Arefin: ৳845)
+
+| # | Website | URL | Price | vs. Arefin |
+|---|---------|-----|-------|------------|
+| 1 | Fitnotion | fitnotion.com.bd | ৳2,299+ | Higher |
+| 2 | BDStall | bdstall.com | Check site | Head massagers |
+| 3 | SmartDeal | smartdeal.com.bd | Check site | Health |
+| 4 | ArifinShop | arifinshop.com | Check site | Beauty & Health |
+| 5 | Earifin | earifin.com | Check site | Health |
+| 6 | Ubuy | ubuy.com.bd | Varies | Head massagers |
+| 7 | ArafatMart | arafatmart.com | Check site | Gadgets |
+| 8 | ShopZ | shopz.com.bd | Check site | Health |
+| 9 | ClicknPack | clicknpack.com | Check site | Health & Beauty |
+| 10 | Shofynix | shofynix.com | Check site | Beauty & Health |
+
+---
+
+#### 7. Motion Sensor Bulb Holder E27 (Arefin: ৳499)
+
+| # | Website | URL | Price | vs. Arefin |
+|---|---------|-----|-------|------------|
+| 1 | BDShop / Offer | offer.bdshop.com | **৳499** | **Same** |
+| 2 | RoboticsBD | store.roboticsbd.com | Check site | PIR motion sensor |
+| 3 | Ubuy | ubuy.com.bd | Varies | Smart home |
+| 4 | ArifinShop | arifinshop.com | Check site | Home & Living |
+| 5 | Earifin | earifin.com | Check site | Home |
+| 6 | SmartDeal | smartdeal.com.bd | Check site | Electronics |
+| 7 | GadStyle | gadstyle.com | Check site | Electronics |
+| 8 | Bengal Bazar | bengalbazar.com.bd | Check site | Home accessories |
+| 9 | ArafatMart | arafatmart.com | Check site | Gadgets |
+| 10 | ShopZ | shopz.com.bd | Check site | Accessories |
+
+---
+
+#### 8. Remote Bulb Holder E27 (Arefin: ৳499)
+
+| # | Website | URL | Price | vs. Arefin |
+|---|---------|-----|-------|------------|
+| 1 | BDShop | bdshop.com | Check site | E27 holders |
+| 2 | RoboticsBD | store.roboticsbd.com | Check site | Smart home |
+| 3 | Ubuy | ubuy.com.bd | Varies | Remote bulb holders |
+| 4 | ArifinShop | arifinshop.com | Check site | Home & Living |
+| 5 | Earifin | earifin.com | Check site | Home |
+| 6 | SmartDeal | smartdeal.com.bd | Check site | Electronics |
+| 7 | GadStyle | gadstyle.com | Check site | Electronics |
+| 8 | Bengal Bazar | bengalbazar.com.bd | Check site | Home accessories |
+| 9 | ArafatMart | arafatmart.com | Check site | Gadgets |
+| 10 | ClicknPack | clicknpack.com | Check site | Home & Living |
+
+---
+
+#### 9. EMS/TENS 16-Pad Machine (Arefin: ৳1,690)
+
+| # | Website | URL | Price | vs. Arefin |
+|---|---------|-----|-------|------------|
+| 1 | PainCure | paincure.com.bd | ৳10,000 – ৳25,000 | **Arefin cheaper** |
+| 2 | Tista Pain Care | tistapaincare.com | ৳15,000 – ৳18,000 | **Arefin cheaper** |
+| 3 | Tista | tista.com.bd | ৳5,000 – ৳25,000 | **Arefin cheaper** |
+| 4 | GBMedi | gbmedi.com | ৳5,400+ | **Arefin cheaper** |
+| 5 | Ubuy | ubuy.com.bd | Varies | Check budget options |
+| 6 | SmartDeal | smartdeal.com.bd | Check site | Health |
+| 7 | ArifinShop | arifinshop.com | Check site | Health |
+| 8 | Earifin | earifin.com | Check site | Health |
+| 9 | Fitnotion | fitnotionbd.com | Check site | Therapy |
+| 10 | RemediMart | remedimart.com | Check site | Therapy machines |
+
+---
+
+#### 10. Heating Pad Period Cramps (Arefin: ৳845)
+
+| # | Website | URL | Price | vs. Arefin |
+|---|---------|-----|-------|------------|
+| 1 | SmartDeal | smartdeal.com.bd | ৳990 | **Arefin cheaper** |
+| 2 | ClicknPack | clicknpack.com | Same product | **Arefin cheaper** |
+| 3 | Shofynix | shofynix.com | Same product | **Arefin cheaper** |
+| 4 | Fitnotion | fitnotionbd.com | ৳2,150 | Different type |
+| 5 | Ubuy | ubuy.com.bd | Varies | Heating pads |
+| 6 | ArifinShop | arifinshop.com | Check site | Beauty & Health |
+| 7 | Earifin | earifin.com | Check site | Health |
+| 8 | Tista | tista.com.bd | Check site | Health |
+| 9 | RemediMart | remedimart.com | Check site | Wellness |
+| 10 | ArafatMart | arafatmart.com | Check site | Gadgets |
+
+---
+
 *Report prepared for Bangladesh market analysis. Prices and competitor data based on available information as of February 2025. Verify current prices on retailer websites before purchase.*
