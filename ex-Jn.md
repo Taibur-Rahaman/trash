@@ -27,7 +27,19 @@ Poverty and inequality are not side issues in Bangladesh; they shape how the eco
 
 This assignment uses the slides and charts from our econometrics presentation on *Poverty, Income Inequality and Social Safety Net Program in Bangladesh*, together with published statistics where the slides cite them. The goal is to connect the numbers: rising inequality makes it harder to keep poverty down; poorly targeted safety nets spend a lot but change little for those who need help most.
 
-The rest of the paper proceeds in order. Section 2 clarifies basic terms. Sections 3 and 4 take up poverty and inequality, including the bar and line graphs we presented. Section 5 looks at safety nets and the budget. Section 6 considers wider economic and social effects and the aftermath of COVID-19. Section 7 places Bangladesh next to several Asian neighbours. Section 8 reviews policy and delivery problems; Section 9 closes with recommendations and conclusions.
+Below, Section 2 defines poverty, inequality, and safety nets. Sections 3–4 work through the evidence on poverty and the Gini, including Figures 1–5. Section 5 covers programmes and budget figures (Figure 6); Section 6 turns to HDI-related effects and COVID-19; Section 7 compares Bangladesh with India, Nepal, Vietnam, and Thailand (Figure 7). Policy and implementation are discussed in Section 8, and Section 9 ends with recommendations.
+
+### List of Figures
+
+| Figure | Title | Section |
+|--------|--------|---------|
+| 1 | Poverty at a Glance (2022 vs 2025) | 3.2 |
+| 2 | Trends in Poverty, 2010–2025 | 3.3 |
+| 3 | Current Income Inequality | 4.2 |
+| 4 | Gini Coefficient Trend, 2010–2022 | 4.3 |
+| 5 | Rural vs Urban Inequality | 4.4 |
+| 6 | SSNP Budget Allocation | 5.2 |
+| 7 | International Comparison (Poverty & Gini) | 7 |
 
 ---
 
@@ -35,11 +47,11 @@ The rest of the paper proceeds in order. Section 2 clarifies basic terms. Sectio
 
 ### 2.1 Poverty
 
-A household is poor when it cannot reliably afford a minimum standard of living—enough food, decent shelter, safe water, basic health care, and schooling for children. Researchers often separate *absolute* poverty (fixed against a poverty line) from *relative* poverty (how far someone sits below others in the same society). For international comparison the World Bank uses an extreme poverty line of **$2.15 per day** (2017 purchasing power parity). In Bangladesh, extreme poverty has come down over the long term but remains common in rural areas and among landless workers, female-headed families, and people with disabilities. World Bank work cited in our slides projects that around **15.8 million people** could still live in extreme poverty by the end of 2025.
+In practice, a poor household is one that cannot steady afford essentials: rice and other food, a roof that does not leak, drinking water, treatment when someone falls ill, and sending children to school. Researchers often separate *absolute* poverty (fixed against a poverty line) from *relative* poverty (how far someone sits below others in the same society). For international comparison the World Bank uses an extreme poverty line of **$2.15 per day** (2017 purchasing power parity). In Bangladesh, extreme poverty has come down over the long term but remains common in rural areas and among landless workers, female-headed families, and people with disabilities. World Bank work cited in our slides projects that around **15.8 million people** could still live in extreme poverty by the end of 2025.
 
 ### 2.2 Income Inequality
 
-Inequality is about how income is divided. The usual summary measure is the **Gini coefficient**: 0 would mean everyone earns the same; 1 would mean one person earns everything. When the Gini rises, as it has in Bangladesh, the gap between high and low earners is widening. That matters for more than fairness—high inequality can mean less spending on children’s schooling among the poor and poverty that lasts into the next generation.
+Some people earn far more than others; inequality measures that spread. The number most often used is the **Gini coefficient**: 0 would mean everyone earns the same; 1 would mean one person earns everything. When the Gini rises, as it has in Bangladesh, the gap between high and low earners is widening. That matters for more than fairness—high inequality can mean less spending on children’s schooling among the poor and poverty that lasts into the next generation.
 
 ### 2.3 Social Safety Net Programs (SSNPs)
 
@@ -51,7 +63,7 @@ Safety nets are government transfers and in-kind help—cash for the elderly, fo
 
 ### 3.1 Causes
 
-No single cause explains poverty here; several forces work together. Cyclones, river erosion, and slow recovery after floods hit incomes in chars and coastal districts. Inflation that runs ahead of wages, unemployment, and the fact that skilled formal jobs pay much more than unskilled work all squeeze purchasing power. Dense population, medical bills paid out of pocket, and limited technical training block upward movement. Infrastructure is still thin in many areas, and growth has been Dhaka-heavy while western districts and haor regions lag.
+Poverty in Bangladesh arises from a mix of pressures rather than one headline reason. Cyclones, river erosion, and slow recovery after floods hit incomes in chars and coastal districts. Inflation that runs ahead of wages, unemployment, and the fact that skilled formal jobs pay much more than unskilled work all squeeze purchasing power. Dense population, medical bills paid out of pocket, and limited technical training block upward movement. Infrastructure is still thin in many areas, and growth has been Dhaka-heavy while western districts and haor regions lag.
 
 ### 3.2 Current Situation (2022 vs 2025)
 
@@ -67,6 +79,11 @@ Rural areas have long had more poverty because incomes from crops and seasonal l
 
 The slides point to three immediate pressures: inflation eating into real income, too few good jobs, and shocks at home and abroad.
 
+**Figure 1.** Current poverty situation in Bangladesh (2022 vs 2025)—national and extreme poverty, vulnerability, urban–rural contrast, and main drivers.  
+*Source: Group 10 presentation slide; extracted from presentation PDF.*
+
+![Figure 1: Poverty at a Glance 2022 vs 2025](generated_graphs/figure1_poverty_glance.png)
+
 ### 3.3 Trends in Poverty (Graph Analysis)
 
 The *Trends in Poverty* slide gives both a table and a bar chart:
@@ -77,6 +94,11 @@ The *Trends in Poverty* slide gives both a table and a bar chart:
 | 2016 | 24.3% | Significant decline | Agricultural growth and remittances |
 | 2022 | 18.7% | Lowest point in the series | Post-COVID recovery phase |
 | 2025 | 22.9% (table) / 27.9% (current slide) | Projected / estimated rise | Economic stress; ~3 million new extreme poor (projection narrative) |
+
+**Figure 2.** Trends in poverty in Bangladesh, 2010–2025 (table and bar chart).  
+*Source: Group 10 presentation slide.*
+
+![Figure 2: Trends in Poverty 2010–2025](generated_graphs/figure2_poverty_trends.png)
 
 Read against the bars, the story is clear: poverty fell from 2010 through 2022 as remittances, exports, and farm output often did well. The 2025 bar climbs again, breaking that downward line. In econometrics terms one could describe this as a break in the earlier trend—the factors that pulled poverty down before 2022 (including steadier food prices and strong overseas employment) weigh less once inflation and weak job growth dominate.
 
@@ -102,13 +124,28 @@ The *Current Income Inequality* slide reports:
 
 The pie chart and seesaw picture make the same point in visual form: the richest tenth receive roughly twice the income share of the entire bottom half. Wealth is even more concentrated than yearly income, which is what we often see when land and house prices rise faster than wages.
 
+**Figure 3.** Current income inequality in Bangladesh—Gini change (2010–2022), national income shares, bottom decile decline, urban/rural Gini, and wealth concentration.  
+*Source: Group 10 presentation slide.*
+
+![Figure 3: Current Income Inequality](generated_graphs/figure3_income_inequality.png)
+
 ### 4.3 Inequality Trends (Line Graph Analysis)
+
+**Figure 4.** Income inequality trend in Bangladesh (Gini coefficient), 2010–2022.  
+*Source: Group 10 presentation slide.*
+
+![Figure 4: Gini Trend 2010–2022](generated_graphs/figure4_gini_trend.png)
 
 The line graph plots the Gini at 0.46 (2010), about 0.48 (2016), and 0.50 (2022). The line slopes upward fairly steadily, not in a single jump. That fits the idea that growth has been real but not pro-poor enough—agriculture and tiny enterprises that employ many poor people have not gained at the same pace as finance, property, and parts of large industry.
 
 ### 4.4 Rural vs Urban Inequality
 
 Measured inequality is **lower in rural areas** (Gini ≈ 0.45) but **poverty is more common** because average income is low. **Cities show higher inequality** (Gini ≈ 0.54): a thin layer of well-paid professionals and a large mass in informal work and slums. Dhaka and other urban centres illustrate how fast migration without cheap housing and transport can raise both inequality and the risk of urban poverty.
+
+**Figure 5.** Rural vs urban inequality—Gini comparison, poverty incidence, and main economic differences.  
+*Source: Group 10 presentation slide.*
+
+![Figure 5: Rural vs Urban Inequality](generated_graphs/figure5_rural_urban.png)
 
 ---
 
@@ -130,9 +167,14 @@ According to the slides:
 
 By regional standards that is a large commitment. Still, when rice and fuel cost more each year, the monthly amounts many families receive stay small in real terms.
 
+**Figure 6.** Social safety net budget allocation—total outlay, share of budget/GDP, programme consolidation, and pro-poor focus.  
+*Source: Group 10 presentation slide.*
+
+![Figure 6: Budget Allocation for SSNPs](generated_graphs/figure6_budget_allocation.png)
+
 ### 5.3 Effectiveness
 
-On the positive side, the literature and our slides mention lower extreme poverty in some targeted areas, better food security after shocks, more children enrolled, and support for rural livelihoods. On the negative side, wrong names on lists, delays, corruption, benefits that do not keep up with prices, and weak follow-up limit what programmes achieve. Transfers at the bottom help, but income at the top keeps growing faster—so inequality and shallow safety nets can coexist.
+Where targeting works, villages report less extreme poverty, better food security after floods, higher enrolment, and some protection for rural livelihoods. Where it does not, the same problems return: names on the list that should not be there, payments arriving late, money lost to corruption, and allowances that buy less each year because prices move faster than the transfer. Help at the bottom does not stop concentration at the top; both can be true at once.
 
 ---
 
@@ -140,15 +182,15 @@ On the positive side, the literature and our slides mention lower extreme povert
 
 ### 6.1 Economic and Social Effects
 
-When many people are poor and the rich pull further ahead, markets for everyday goods grow slowly, productivity suffers, and wealth stays concentrated. Families cut back on food quality, women often bear heavier unpaid care work, and local offices struggle to manage growing demand for allowances.
+Wide poverty alongside a wealthy minority changes how the economy behaves day to day. Poor households buy less, so demand for local goods stays weak; firms then have less reason to invest in labour-saving upgrades, and assets stay in few hands. At home, families may switch from fish or meat to cheaper staples; women pick up extra unpaid care when clinics or schools are far away; union offices face long queues for allowances they cannot always pay on schedule.
 
 ### 6.2 Human Development Index (HDI)
 
-**Education:** Crowded schools, early leaving, and little access to computers or tutoring hold back children from poor homes. **Health:** Malnutrition and fees paid at clinics hit mothers and children hardest. **Living standards:** Poor housing, sanitation, and unreliable utilities drag down the non-money parts of human development. Inequality is therefore not only about income shares; it pulls down Bangladesh’s longer-run HDI performance.
+HDI combines education, health, and living conditions, not just cash income. Poor children often study in overcrowded rooms and leave school early to work; few have tutors or reliable internet for homework. Clinic fees and malnutrition still weigh heavily on mothers and infants. Housing without safe drainage, or power that fails in summer, lowers everyday wellbeing even when income is above the poverty line. For these reasons inequality drags on Bangladesh’s HDI score over time, not only the Gini.
 
 ### 6.3 COVID-19 Legacy
 
-COVID-19 pushed many informal workers out of jobs, interrupted schooling for students without internet, and raised health costs. GDP recovered, but many households still have less savings, more dropouts, and worse job quality—and those weaknesses interact with the inflation of 2023–2025.
+During COVID-19 rickshaw pullers, garment helpers, and market vendors lost days of pay; many students in villages had no online class; families spent savings on treatment. National output has recovered on paper, yet a large share of households entered 2023 with thinner buffers, more teenagers out of school, and worse informal jobs—just as food and rent inflation accelerated again.
 
 ---
 
@@ -164,6 +206,11 @@ Our *International Comparison* slide set Bangladesh beside India, Nepal, Vietnam
 | Vietnam | 5–7% | 0.35–0.36 | Low poverty with relatively equal growth pattern |
 | Thailand | 6–8% | 0.43–0.45 | Low poverty but relatively high inequality |
 
+**Figure 7.** International comparison of poverty rates and Gini coefficients—Bangladesh, India, Nepal, Vietnam, and Thailand (table and bar charts).  
+*Source: Group 10 presentation slide; underlying data cited as World Bank, ADB, UNDP (2022–23).*
+
+![Figure 7: International Comparison](generated_graphs/figure7_international_comparison.png)
+
 In the bar charts, Bangladesh’s poverty rate sits below Nepal’s and somewhat below India’s, but well above Vietnam and Thailand. On the Gini, Bangladesh’s bar (~0.50) is the highest in the group—above Thailand and clearly above India and Nepal.
 
 Bangladesh has done better than some neighbours at cutting poverty over time, but worse at keeping distribution fair. Vietnam shows that strong farm output, export factories, and spending on basic services can hold poverty low without letting inequality run toward 0.50.
@@ -178,7 +225,7 @@ Bangladesh does not rely on one programme to fight poverty; policy is stitched t
 
 ### 8.2 Key Challenges
 
-On the ground, problems compound. Allowance lists are not always checked; better-off households sometimes collect benefits while poorer neighbours are left off the roll, a form of elite capture noted in much of the literature. School stipends help attendance more than learning or hiring, especially after primary level. Cities pull in workers faster than they offer decent housing, so slum poverty and high rent have grown serious; national poverty is projected near 27.9% in 2025. Social protection takes about 16.8% of the budget and lists 7.68 crore people, yet roughly 62 million are described as at risk of falling into poverty—suggesting small real transfers once inflation is counted. Late payments and little public reporting weaken trust. Floods in haor and coastal areas and rising food costs can wipe out gains from GDP growth that look strong in the aggregate.
+Delivery is where policy often fails. Allowance lists are not always checked; better-off households sometimes collect benefits while poorer neighbours are left off the roll, a form of elite capture noted in much of the literature. School stipends help attendance more than learning or hiring, especially after primary level. Cities pull in workers faster than they offer decent housing, so slum poverty and high rent have grown serious; national poverty is projected near 27.9% in 2025. Social protection takes about 16.8% of the budget and lists 7.68 crore people, yet roughly 62 million are described as at risk of falling into poverty—suggesting small real transfers once inflation is counted. Late payments and little public reporting weaken trust. Floods in haor and coastal areas and rising food costs can wipe out gains from GDP growth that look strong in the aggregate.
 
 ---
 
@@ -186,7 +233,7 @@ On the ground, problems compound. Allowance lists are not always checked; better
 
 ### 9.1 Recommendations
 
-Several steps follow from the analysis above.
+The following points draw together what the data and slides imply for policy.
 
 **Targeting.** A single updated household register, linked to national ID where possible, with union-level checking by community members, could reduce wrong inclusions and exclusions. Political pressure on lists should be handled as a governance problem, not only a technical one.
 
@@ -222,29 +269,37 @@ Asian Development Bank. (2023). *Asian Development Outlook.*
 
 United Nations Development Programme. (2023). *Human Development Report.*  
 
-World Bank. (2023–25). *Bangladesh Poverty & Equity Brief*; *Poverty and Inequality Platform*; international poverty line documentation ($2.15/day).  
+World Bank. (2023–25). *Bangladesh poverty and equity brief* and *Poverty and Inequality Platform* (including $2.15/day line note).  
 
-World Bank. (2025). Reports on extreme poverty projections in Bangladesh.  
+World Bank. (2025). Extreme poverty projection for Bangladesh.  
 
-*Class presentation:* Group 10, Department of Economics, JKKNIU, *Poverty, Income Inequality and Social Safety Net Program in Bangladesh* (slides and charts, 2026).
+Group 10 (2026). *Poverty, income inequality and social safety net program in Bangladesh* [PowerPoint presentation]. Department of Economics, Jatiya Kabi Kazi Nazrul Islam University.
 
 ---
 
-## Appendix: Figures Referenced from the Presentation
+## Appendix: Generating Figures (Python)
 
-**Figure A – Trends in Poverty (bar chart, 2010–2025)**  
-Decline from 31.5% to 18.7%, then projected rise to 22.9–27.9%.
+Figures 1–7 in this document are produced by the script `generate_assignment_graphs.py` (same data as the Group 10 presentation). Original slide screenshots remain in `pdf_images/` for reference.
 
-**Figure B – Income Inequality Trend (Gini line chart, 2010–2022)**  
-Rise from 0.46 to 0.50.
+**Setup and run** (from `/Users/eloneflax/personal/`):
 
-**Figure C – Current Income Inequality (pie chart and urban/rural Gini, 2022)**  
-Top 10% vs bottom 50% income shares and wealth concentration.
+```bash
+pip3 install -r requirements-graphs.txt
+python3 generate_assignment_graphs.py
+```
 
-**Figure D – Poverty at a Glance 2022 vs 2025 (infographic)**  
-Poverty rate, extreme poverty, and 62 million vulnerable.
+Charts are written to `generated_graphs/`:
 
-**Figure E – International Comparison (dual bar charts)**  
-Poverty and Gini for Bangladesh, India, Nepal, Vietnam, and Thailand.
+| File | Figure |
+|------|--------|
+| `figure1_poverty_glance.png` | 1 |
+| `figure2_poverty_trends.png` | 2 |
+| `figure3_income_inequality.png` | 3 |
+| `figure4_gini_trend.png` | 4 |
+| `figure5_rural_urban.png` | 5 |
+| `figure6_budget_allocation.png` | 6 |
+| `figure7_international_comparison.png` | 7 |
 
-*Insert chart images from `pdf_images/` when submitting the printed assignment.*
+Edit the data lists at the top of each function in the script to change values, then re-run. Keep `generated_graphs/` beside this `.md` file when exporting to Word or PDF.
+
+**Optional slides** (not auto-generated): `pdf_images/page_17.png` (SSNP effectiveness), `page_21.png` (COVID-19), `page_22.png` (government policies).
