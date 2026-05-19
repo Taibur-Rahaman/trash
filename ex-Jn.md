@@ -211,27 +211,27 @@ Bangladesh’s poverty bar is lower than Nepal’s and somewhat better than Indi
 
 ### 8.1 Policy Directions
 
-Government policy, as outlined in the presentation, spans:
+The government slide in our presentation grouped official responses into five broad areas, and they overlap in practice rather than working as separate tracks.
 
-- **National development strategies** (Five-Year Plans, regional balance)  
-- **Expansion and reform of SSNPs** (lifecycle approach, higher allowances)  
-- **Employment policies** (public works, infrastructure, SME support)  
-- **Human capital** (education, health, TVET, gender equity)  
-- **Redistributive measures** (subsidies, progressive public spending)
+First, **planning and long-run growth** still runs through periodic Five-Year Plans and the idea of reducing gaps between regions—for example, when investment and jobs stay concentrated around Dhaka while northern or coastal districts lag. Second, **social safety nets** have been reshaped somewhat: fewer schemes on paper (99 instead of 140), more emphasis on a “lifecycle” model, and small rises in allowances for the elderly, widows, and people with disabilities. Third, **jobs and the real economy** depend on public works, roads and bridges, and support for small firms and rural enterprises, because most poor households do not live on transfers alone. Fourth, **human capital**—schools, clinics, technical training, and programmes for women—matters if the next generation is to move out of low-wage informal work. Fifth, **subsidies and other redistributive tools** (food, fuel, agricultural inputs) are meant to cushion prices for low-income groups.
 
-These directions are coherent on paper; implementation gaps remain the binding constraint.
+None of this is new in principle; Bangladesh has talked about inclusive growth for years. The gap, as we discussed in class, is between what budgets and policy documents promise and what people actually receive on the ground—especially in remote unions where information travels slowly and local influence shapes who gets listed.
 
 ### 8.2 Key Challenges
 
-1. Corruption and political linkage in beneficiary selection  
-2. Low quality of education and skills mismatch  
-3. Population pressure on urban infrastructure  
-4. Slum growth and housing affordability  
-5. Targeting errors and incomplete coverage  
-6. Fiscal limits relative to growing need  
-7. Weak monitoring and evaluation  
-8. Climate disasters and regional disparity  
-9. Persistent inflation eroding real transfers  
+Several obstacles keep showing up in both the slides and wider literature, and they reinforce each other.
+
+**Leakage and favouritism** remain a serious problem. When allowance lists are prepared without strict verification, non-poor households sometimes collect benefits while genuinely needy families are left out. That fits what many researchers call “elite capture” in local safety-net delivery.
+
+**Education and skills** are another bottleneck. Even where stipends help children enrol, quality is uneven; dropouts rise after primary level, and job markets reward certificates and technical skills that poor youth often cannot afford to obtain.
+
+**Urban pressure** adds a different layer. Dhaka and other cities draw migrants seeking work, but slums, high rent, and unsafe housing mean that “urban poverty” is no longer a side issue—it is growing faster than rural poverty in the recent estimates we used (27.9% national poverty in 2025, with urban hardship stressed in the infographic).
+
+**Programme design limits** also matter. The budget share for safety nets (about 16.8% of the national budget) looks large, yet per-person amounts are still small after inflation. Coverage of 7.68 crore “vulnerable” people sounds wide, but the 62 million described as at risk of falling into poverty suggests the net is not wide enough—or not deep enough.
+
+**Administration** is weak in many places: late payments, little public information on who received what, and few independent checks after money leaves the ministry.
+
+Finally, **climate shocks and regional inequality** (flood-prone chars, haor areas, the south-west) and **ongoing inflation** keep pulling households back toward the poverty line even when national GDP growth looks acceptable on paper.
 
 ---
 
@@ -239,19 +239,29 @@ These directions are coherent on paper; implementation gaps remain the binding c
 
 ### 9.1 Recommendations
 
-1. **Improve targeting** using unified registries, community verification, and data audits to cut inclusion/exclusion errors.  
-2. **Index benefits** partially to inflation so real transfer values do not fall every year.  
-3. **Increase transparency** through public dashboards on allocations, beneficiaries, and payment dates.  
-4. **Strengthen M&E** with independent impact evaluations linked to budget releases.  
-5. **Invest in education and vocational training** to raise employability, especially for youth and women.  
-6. **Prioritize rural productivity** (irrigation, extension services, rural roads) to stabilize farm income.  
-7. **Promote inclusive growth**—labour-intensive manufacturing, fair wages, and progressive taxation on wealth where administratively feasible.
+From the analysis above, a practical set of steps—not necessarily new ideas, but ones that match Bangladesh’s current problems—would include the following.
+
+**Targeting:** Build and use one updated household database (linked to NID where possible) and verify lists at union level with community input, so inclusion and exclusion errors fall. Political interference in beneficiary selection should be treated as a governance issue, not only a technical one.
+
+**Benefit levels:** Old-age and other cash allowances should be reviewed regularly against food and essential goods prices; otherwise a Tk 50–100 increase is quickly eaten up by inflation, as many recipients have pointed out in media reports.
+
+**Transparency:** Ministries and local offices could publish simple quarterly tables—budget released, number of beneficiaries, payment dates—online or on notice boards. That would not end corruption by itself, but it would make delays and gaps harder to hide.
+
+**Monitoring:** Universities, BBS, or independent teams could sample villages after major programme changes and report whether school attendance, food security, or poverty indicators moved. Linking some funding to verified outcomes might work better than adding more schemes with the same delivery system.
+
+**Jobs and skills:** Expand vocational training in growth sectors (garments, logistics, light engineering, climate-resilient farming) and tie stipends to completion, not only enrolment. Without earning opportunities, safety nets become a permanent patch.
+
+**Rural economy:** Irrigation, extension services, and market roads still deserve priority because a large share of the poor depend on agriculture and non-farm rural jobs.
+
+**Growth pattern:** Policy should favour sectors that employ many workers at decent wages, not only capital-intensive projects that raise average income while the Gini stays at 0.50.
 
 ### 9.2 Conclusion
 
-Bangladesh’s development record over 2010–2022 shows that poverty can fall quickly when growth, remittances, and agricultural output align. The post-2022 period demonstrates the fragility of that progress: poverty and extreme poverty are rising again, inequality measured by the Gini coefficient has reached about 0.50, and the bottom decile’s income share is at a multi-decade low. Social safety nets absorb part of the shock for 7–8 crore listed beneficiaries, but administrative weaknesses and low real benefit levels limit their transformative power.
+To sum up, Bangladesh’s story over the last fifteen years is not a simple success or failure. Between 2010 and 2022 the poverty bar in our chart fell from 31.5% to 18.7%, which is real progress. Remittances, garment exports, and better harvests in many years all played a part. But the same chart turns upward again for 2025, and the slide on “current poverty” puts the rate even higher (around 27.9%), with extreme poverty nearly doubling compared with 2022. At the same time the Gini line rises steadily to 0.50, and the bottom 10%’s share of income is only about 1.31%—less than half what it was in 1990–91.
 
-Sustainable improvement requires pairing expanded social protection with job creation, human capital investment, and policies that prevent an ever-larger share of national income from concentrating at the top. Without that balance, econometric models of welfare will continue to show gains in mean income but losses at the bottom of the distribution—the pattern clearly visible in the poverty bar chart’s upward turn and the Gini trend line’s steady climb.
+Social safety nets clearly help in crises: food after floods, cash for the elderly, stipends that keep some children in school. The budget figures we reported (over BDT 1 lakh crore) show that the state is spending serious money. Yet the programmes cannot fix inequality or chronic poverty on their own when jobs are scarce, prices are high, and delivery is uneven.
+
+What is needed, in my view, is a combination: fairer and better-administered transfers, plus growth that reaches informal workers and rural households—not only headline GDP. If that balance is missing, the next Household Income and Expenditure Survey will probably show again what our graphs already hint at: averages improving while life at the bottom of the distribution stays hard, or gets harder.
 
 ---
 
